@@ -11,7 +11,7 @@ int main(){
 	char name[50];
 	int age;
 	printf("Enter a name  : ");
-	scanf("%s",name);
+	scanf("%[^\n]",name);
 	printf("Enter a age :");
 	scanf("%d",&age);
 	printf("\nwelcome  %s ! you are %d years old .\n",name,age);
@@ -27,7 +27,7 @@ int main(){
 	string name;
 	int age;
 	cout<<"Enter a name : ";
-	cin>> name;
+	getline(cin,name);
 	cout<<"Enter a age : ";
 	cin>> age;
 	cout<<"\n welcome "<<name<<" ! you are "<<age<<" years old.\n"<<endl;
