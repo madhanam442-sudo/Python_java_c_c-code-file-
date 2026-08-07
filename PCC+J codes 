@@ -1,0 +1,56 @@
+Python:
+
+name=input("Enter a name : ")
+age=input("Enter a age :  ")
+print(f"welcome  "+name+" !  you are "+age+" years old.")
+
+C:
+
+#include <stdio.h>
+int main(){
+	char name[50];
+	int age;
+	printf("Enter a name  : ");
+	scanf("%s",name);
+	printf("Enter a age :");
+	scanf("%d",&age);
+	printf("\nwelcome  %s ! you are %d years old .\n",name,age);
+	return 0 ;
+}
+
+C++:(cout&cin)
+
+#include <iostream>
+#include <string>
+using namespace std ;
+int main(){
+	string name;
+	int age;
+	cout<<"Enter a name : ";
+	cin>> name;
+	cout<<"Enter a age : ";
+	cin>> age;
+	cout<<"\n welcome "<<name<<" ! you are "<<age<<" years old.\n"<<endl;
+
+java :
+
+import java.util.Scanner;
+public class Main{
+	public static void main(String[] args){
+	Scanner scanner=new Scanner(System.in);
+	System.out.print("Enter a name : ");
+	String name=scanner.nextLine();
+	System.out.print("Enter a age : ");
+	int age=scanner.nextInt();
+	System.out.println("\nwelcome "+name+" ! you are "+age+" years old .");
+	scanner.close();
+	}
+}
+
+
+
+	
+	return 0;
+}
+	
+#This file use in nane,age and welcome programming language codes.
