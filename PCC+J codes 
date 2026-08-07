@@ -31,6 +31,7 @@ int main(){
 	cout<<"Enter a age : ";
 	cin>> age;
 	cout<<"\n welcome "<<name<<" ! you are "<<age<<" years old.\n"<<endl;
+}
 
 java :
 
